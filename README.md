@@ -8,7 +8,7 @@ sudo bash setup.sh
 
 #Functionalities
 
-You can play Videos and Music through direct links like: http://address.mp3 or links from streamcloud.eu or links from youtube.com.
+You can play Videos and Music through direct links like: http://address.mp3 or links from http://streamcloud.eu or links from https://youtube.com.
 You can upload files and create folders through the Website and of course play them.
 You can change the start time, stop videos and resume even if the raspberry was shutdown.
 You can change starting options of the here used omxplayer.
