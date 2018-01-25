@@ -6,7 +6,7 @@ sudo bash setup.sh
 ```
 !Caution the setup script changes files like php.ini and rc.local if this is not wanted please edit setup.sh.
 
-#Functionalities
+# Functionalities
 
 - You can play Videos and Music through direct links like: http://address.mp3 or links from http://streamcloud.eu or links from https://youtube.com.
 - You can upload files and create folders through the Website and of course play them.
