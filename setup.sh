@@ -11,7 +11,7 @@ pip install --upgrade youtube-dl
 echo "config :"
 lighty-enable-mod fastcgi
 lighty-enable-mod fastcgi-php
-if [[ $(grep -F "youtube-dl -U" /etc/rc.local) == "" ]];then
+if [[ $(grep -F "pip install --upgrade youtube-dl" /etc/rc.local) == "" ]];then
 while [[ $(grep -F "exit 0" /etc/rc.local) != "" ]];do
 sed -i "$ d" /etc/rc.local;done
 echo "pip install --upgrade youtube-dl" >> /etc/rc.local
