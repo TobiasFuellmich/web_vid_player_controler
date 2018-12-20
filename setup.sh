@@ -7,6 +7,8 @@ apt-get install php-cgi
 apt-get install mediainfo
 apt-get install youtube-dl
 pip install --upgrade youtube-dl
+sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
 #config
 echo "config :"
 lighty-enable-mod fastcgi
